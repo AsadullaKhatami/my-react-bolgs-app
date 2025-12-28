@@ -1,0 +1,89 @@
+{
+  "status": "success",
+  "message": "Blog posts fetched successfully",
+  "data": {
+    "site": {
+      "name": "TechVerse Blog",
+      "url": "https://techverse.example.com",
+      "language": "en",
+      "timezone": "UTC+6"
+    },
+    "posts": [
+      {
+        "id": "blog_001",
+        "title": "Introduction to Modern Web Development",
+        "slug": "introduction-to-modern-web-development",
+        "excerpt": "A beginner-friendly guide to modern web technologies and tools.",
+        "content": "Modern web development involves using frameworks, APIs, and tools to build fast and scalable applications.",
+        "author": {
+          "id": "author_01",
+          "name": "John Doe",
+          "email": "john.doe@example.com",
+          "avatar": "https://i.ibb.co.com/pv2pz9m3/business-avatar-profile-black-icon-man-of-user-symbol-in-trendy-flat-style-isolated-on-male-profile.jpg"
+        },
+        "category": "Web Development",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "published": true,
+        "publishedAt": "2025-01-05T10:30:00Z",
+        "updatedAt": "2025-01-06T09:15:00Z",
+        "readTime": "5 min",
+        "views": 1250,
+        "likes": 210,
+        "commentsCount": 18,
+        "featuredImage": "https://picsum.photos/seed/html/800/450"
+      },
+      {
+        "id": "blog_002",
+        "title": "Understanding REST APIs",
+        "slug": "understanding-rest-apis",
+        "excerpt": "Learn how REST APIs work and why they are essential in modern applications.",
+        "content": "REST APIs allow communication between client and server using HTTP methods.",
+        "author": {
+          "id": "author_02",
+          "name": "Sarah Khan",
+          "email": "sarah.khan@example.com",
+          "avatar": "https://i.ibb.co.com/pv2pz9m3/business-avatar-profile-black-icon-man-of-user-symbol-in-trendy-flat-style-isolated-on-male-profile.jpg"
+        },
+        "category": "Backend",
+        "tags": ["API", "REST", "Backend"],
+        "published": true,
+        "publishedAt": "2025-01-10T08:00:00Z",
+        "updatedAt": "2025-01-10T08:00:00Z",
+        "readTime": "7 min",
+        "views": 980,
+        "likes": 156,
+        "commentsCount": 9,
+        "featuredImage": "https://picsum.photos/seed/html/800/450"
+      },
+      {
+        "id": "blog_003",
+        "title": "Top 10 JavaScript Tips for Clean Code",
+        "slug": "top-10-javascript-tips-clean-code",
+        "excerpt": "Improve your JavaScript code quality with these practical tips.",
+        "content": "Writing clean JavaScript code helps maintainability and scalability.",
+        "author": {
+          "id": "author_03",
+          "name": "Ahmed Rahman",
+          "email": "ahmed.rahman@example.com",
+          "avatar": "https://i.ibb.co.com/pv2pz9m3/business-avatar-profile-black-icon-man-of-user-symbol-in-trendy-flat-style-isolated-on-male-profile.jpg"
+        },
+        "category": "JavaScript",
+        "tags": ["JavaScript", "Best Practices"],
+        "published": true,
+        "publishedAt": "2025-01-15T14:45:00Z",
+        "updatedAt": "2025-01-16T11:20:00Z",
+        "readTime": "6 min",
+        "views": 1640,
+        "likes": 320,
+        "commentsCount": 27,
+        "featuredImage": "https://picsum.photos/seed/html/800/450"
+      }
+    ],
+    "pagination": {
+      "currentPage": 1,
+      "pageSize": 10,
+      "totalPosts": 3,
+      "totalPages": 1
+    }
+  }
+}
